@@ -36,3 +36,18 @@ for question in Questions:
         print(f"{answers[question_num]} is correct answer")
 
     question_num+=1
+
+
+print("_ _ _ _ _ _ _ _ _ _ _")
+print("      RESULTS        ")
+print("_ _ _ _ _ _ _ _ _ _ _")
+
+print("answers:" , end = "")
+for answer in answers:
+    print(answer , end = "")
+print()
+
+print("guesses:" , end = "")
+for guess in guesses:
+    print(guess , end = "")
+print()
