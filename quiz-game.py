@@ -3,7 +3,7 @@ Questions = (("How many elements are in periodic table? :"),
              ("What is the Most abundant gas in Earth's atmosphere? :" ),
              ("How many bones are in human body? :"),
              ("Which planet in solar system is the hottest? : "),
-             ("What is symbol of Gold in periodi table? ;"))
+             ("What is symbol of Gold in periodic table? ;"))
 
 
 options = (("A. 116","B. 117","C. 118","D. 119"),
