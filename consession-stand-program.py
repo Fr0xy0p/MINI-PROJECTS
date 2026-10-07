@@ -25,8 +25,8 @@ print("- - - - YOUR CART - - - -")
 
 for food in cart:
     total = total + menu.get(food)
-    print(food , end = " , ")
+    print(food , end = " ")
 
 print()
-print(f"Your total is: ₹{total}")    
+print(f"Your total is: ₹{total:.2f}")    
 print("Enjoy your Meal sir!")
