@@ -23,11 +23,12 @@ while is_running:
             print("Too high! Try again")
         else:
             print(f"CORRECT! The answer is {answer}")
-            print(f"The number of guesses is {guesses}")
+            print(f"The number of guesses: {guesses}")
             is_running = False      
     else:
         print("Invalid guess")
         print(f"Please select a number between {lowest_num} and {highest_num}")
+        
 
         
         
